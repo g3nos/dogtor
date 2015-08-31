@@ -1,0 +1,31 @@
+@media screen and (max-width: 400px) {
+  .container {
+    width: 95%;
+  }
+  .portada .slider .box-sol {
+    top: 0;
+  }
+  .portada .slider .box-sol h1 {
+    font-size: 1.7em;
+  }
+  .portada .slider .box-sol h2 {
+    font-size: 0.9em;
+  }
+  .container .box-servicios ul li {
+    width: 100%;
+    padding: 2em 0 0 0;
+  }
+  footer .box-footer-top {
+    text-align: center;
+  }
+  footer .box-footer-top .container .box-footer {
+    width: 100%;
+  }
+  footer .box-footer-top .container .entradas ul {
+    margin: 0;
+    padding: 0;
+  }
+  footer .box-footer-top .container .entradas ul li {
+    list-style-type: none;
+  }
+}

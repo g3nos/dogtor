@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Dogtor.pe</title>
+	<!--<link rel="stylesheet" href="style.css">-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet/less" type="text/css" href="normalize.css" />
+	<link rel="stylesheet" href="responsiveslides.css">
+	<link rel="stylesheet/less" type="text/css" href="style.less" />
+	<script src="less-1.7.2.js"></script>
+	<!-- script slider -->
+	<script src="js/jquery-1.10.1.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+	    // You can also use "$(window).load(function() {"
+	    $(function () {
+	      // Slideshow 1
+	      $("#slider1").responsiveSlides({
+	        //maxwidth: 1280,
+	        speed: 2000
+	      });
+	    });
+	</script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="box-top">
+				<ul>
+					<li class="bot-registro">Registrarme</li>
+					<li class="bot-login">Iniciar Sesión</li>
+				</ul>
+			</div>
+			<div class="box-bottom">
+				<div class="logo">
+					<h1>Logo</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">¿Qué es dogtor?</a></li>
+						<li><a href="#">Nuestros servicios</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contáctanos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="portada">
+		<div class="slider">
+			<ul class="rslides" id="slider1">
+			    <li><img src="images/1.png" alt=""></li>
+			    <li><img src="images/2.png" alt=""></li>
+			    <li><img src="images/3.png" alt=""></li>
+			</ul>
+			<div class="box-sol">
+					<h1>Solicita un veterinario a domicilio</h1>
+					<p>Te facilitamos la atención a tu mascota</p>
+					<ul class="botones">
+						<li class="bot-left"><a href="#">Dogtor a domicilio</a></li>
+						<li class="bot-right"><a href="#">Iniciar Sesión</a></li>
+					</ul>
+				</div>
+		</div>
+	</section>
+</body>
+</html>

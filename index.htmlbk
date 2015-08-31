@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1">
+	<title>dogtor.pe</title>
+	<style type="text/css">
+		body {
+			font-family: arial;
+			color: #626262;
+		}
+		.container {
+			width: 1024px;
+			margin: auto;
+		}
+		.construccion {
+			width: 100%;
+			text-align: center;
+			text-transform: uppercase;
+			margin-top: 150px;
+		}
+		.contruccion h1 {}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="construccion">
+		<img src="construccion2.jpg" />
+		<h1>Web en Construcci&oacute;n</h1>
+	</div>
+</div>
+</body>
+</html>
